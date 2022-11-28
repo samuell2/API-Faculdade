@@ -13,7 +13,7 @@ namespace Aula01.Controllers
     public class UsuarioController : Controller
     {
 
-        private readonly IUsuarioService _usuarioService;
+        public readonly IUsuarioService _usuarioService;
         public UsuarioController(IUsuarioService usuarioService)
         {
             _usuarioService = usuarioService;
